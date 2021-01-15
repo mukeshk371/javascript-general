@@ -29,3 +29,9 @@ function convertAgeToDays() {
     let ageInput = Number(prompt('Enter Age'));
     alert(ageInput + ' Years' + ' = ' + (ageInput * 365) + ' Days');
 }
+
+function calculatePower() {
+    let voltage = Number(prompt('Enter Voltage'));
+    let current = Number(prompt('Enter Current'));
+    alert('Electrict Power' + ' = ' + (voltage * current) + ' Watt');
+}
