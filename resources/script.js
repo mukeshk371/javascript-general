@@ -35,3 +35,39 @@ function calculatePower() {
     let current = Number(prompt('Enter Current'));
     alert('Electrict Power' + ' = ' + (voltage * current) + ' Watt');
 }
+
+function returnFirstElement() {
+    let newArray = [50, 504, 457];
+    alert('First Element' + ' = ' + newArray[0]);
+}
+
+function convertHoursIntoSeconds() {
+    let inputHours = Number(prompt('Enter Hours'));
+    alert(inputHours + 'Hrs.' + ' = ' + (inputHours * 3600) + 'Sec.');
+}
+
+function maximumEdgeOfTriangle() {
+    let firstSide = Number(prompt('Enter first angle'));
+    let secondSide = Number(prompt('Enter second angle'));
+    let result = (firstSide + secondSide) - 1;
+    alert('Maximum Edge of a Triangle = ' + result);
+}
+
+function remainderFromTwoNumbers() {
+    let dividend = Number(prompt('Enter Dividend'));
+    let divisor = Number(prompt('Enter divisor'));
+    let remainder = dividend % divisor;
+    alert('Remainder = ' + remainder);
+}
+
+function perimeterOfRectangle() {
+    let rectangleLength = Number(prompt('Enter length of rectangle'));
+    let rectangleWidth = Number(prompt('Enter width of rectangle'));
+    let rectanglePerimeter = (rectangleLength + rectangleWidth) * 2;
+    alert('Perimeter of Rectangle = ' + rectanglePerimeter);
+}
+
+function returnSomethingToMe() {
+    let inputSomething = prompt('Enter Something');
+    alert('Something ' + inputSomething);
+}
