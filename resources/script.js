@@ -71,3 +71,63 @@ function returnSomethingToMe() {
     let inputSomething = prompt('Enter Something');
     alert('Something ' + inputSomething);
 }
+
+function returnLessThanEqualToZero() {
+    let LTETZNumber = Number(prompt('Enter Number'));
+    if (LTETZNumber < 0) {
+        alert('true');
+    } else {
+        alert('false');
+    }
+}
+
+function returnArrayStringsToArrayNumbers() {
+    let toNumbers = arr => arr.map(Number);
+    toNumbers = ['1', '2', '3', '4', '5', '6'];
+    alert(toNumbers);
+}
+
+function returnBasicVariableAssignment() {
+    let nameString = prompt('Enter Name');
+    alert(nameString + 'Edabit');
+}
+
+function returnLessThan100() {
+    let lessThanNumber1 = Number(prompt('Enter first number'));
+    let lessThanNumber2 = Number(prompt('Enter second number'));
+    sum = lessThanNumber1 + lessThanNumber2;
+    if (sum < 100) {
+        alert('true');
+    } else {
+        alert('false');
+    }
+}
+
+function returnLegsCount() {
+    let chickenNumber = Number(prompt('Enter Chicken numbers'));
+    let cowNumber = Number(prompt('Enter Cow numbers'));
+    let pigNumber = Number(prompt('Enter Pig numbers'));
+
+    result = (chickenNumber * 2) + (cowNumber * 4) + (pigNumber * 4);
+    alert('Total number of legs = ' + result);
+}
+
+function returnTrueFalse() {
+    let a = true;
+    let b = true;
+    if (a == true && b == true) {
+        alert(true);
+    } else {
+        alert(false);
+    }
+}
+
+function returnSumOfPolygonAngles() {
+    let polygonAngles = Number(prompt('Enter total number of angles'));
+    result = (polygonAngles - 2) * 180;
+    if (polygonAngles > 2) {
+        alert('Sum of Polygon Angles = ' + result);
+    } else {
+        alert('Total number of angles will always be greater than 2');
+    }
+}
