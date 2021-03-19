@@ -131,3 +131,18 @@ function returnSumOfPolygonAngles() {
         alert('Total number of angles will always be greater than 2');
     }
 }
+
+function returnAreNumbersEqual() {
+    let isSameNum1 = prompt('Enter first number');
+    let isSameNum2 = prompt('Enter second number');
+    if (isSameNum1 == isSameNum2) {
+        alert(true);
+    } else {
+        alert(false);
+    }
+}
+function returnBooleanToStringConversion() {
+    let boolToString = true;
+    result = boolToString.toString();
+    alert(result);
+}
